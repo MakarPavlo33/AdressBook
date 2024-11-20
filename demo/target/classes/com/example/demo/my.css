@@ -1,0 +1,10 @@
+.button {
+    -fx-background-color: #4CAF50; /* Основной цвет кнопки */
+    -fx-text-fill: white;          /* Цвет текста */
+    -fx-background-radius: 5px;    /* Закругленные углы */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Цвет кнопки при наведении */
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 5, 0.0, 0, 1); /* Тень при наведении */
+}

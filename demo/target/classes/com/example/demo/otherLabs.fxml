@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.OtherLabs">
+   <children>
+      <Button fx:id="btnYes" layoutX="262.0" layoutY="332.0" mnemonicParsing="false" onAction="#changeLabel" text="ТАК" />
+      <Label fx:id="btnLabel3" layoutX="125.0" layoutY="68.0" prefHeight="44.0" prefWidth="336.0" text="Вітаю Бажаєте змінити зображення?">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <ImageView fx:id="imageView" fitHeight="167.0" fitWidth="260.0" layoutX="144.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@foto.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
